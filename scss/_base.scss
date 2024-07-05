@@ -1,0 +1,48 @@
+// /* ++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+//  -------------------RESET GENERAL--------------------
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgba(253, 192, 122, 0.281);
+}
+
+.whatsApp {
+    display: block;
+    position: fixed;
+    bottom: 100px;
+    right: 15px;
+    padding: 10px 32px;
+    text-decoration: none;
+
+    &__style {
+        color: green;
+        transition: 1.5s;
+
+    }
+
+    &__style:hover {
+        transform: scale(1.2);
+
+    }
+
+}
+
+
+@mixin centradoContenido($tipo, $ejeX, $ejeY) {
+    display: $tipo;
+    justify-content: $ejeX;
+    align-items: $ejeY;
+}
+
+@mixin contenidoImagen($ancho, $alto) {
+    width: $ancho;
+    height: $ancho;
+}

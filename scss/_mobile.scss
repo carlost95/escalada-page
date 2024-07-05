@@ -1,0 +1,57 @@
+@import './variables';
+
+//----------------- mobile adapter------------------ 
+@media (max-width: 1000px) {
+    .card__novedades {
+        width: 45%;
+    }
+
+    .row__novedades {
+        justify-content: space-around;
+    }
+}
+
+// /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+// /* ----------------------------- Mobile First-------------------------------------*/
+@media (max-width: 768px) {
+    .section__titulo {
+        font-size: 150% !important;
+        letter-spacing: normal !important;
+    }
+
+    .section__titulo2 {
+        font-size: 120% !important;
+        letter-spacing: normal !important;
+    }
+
+    .tabla__th,
+    .tabla__td {
+        font-size: small !important;
+    }
+
+    .carousel-item img {
+        height: $altoCarrucel / 2;
+        object-fit: cover;
+    }
+
+    .tabla__contenedorImagen {
+        height: $altoPremiosTabla / 2 !important;
+    }
+
+    .section__parrafo {
+        font-size: 100% - 15% !important;
+    }
+
+    .card__parrafo--orden {
+        text-align: $ordenParrafo;
+        font-size: 100% - 10%;
+    }
+
+    .whatsApp {
+        display: none;
+    }
+
+    .card__novedades {
+        width: 100%;
+    }
+}

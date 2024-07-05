@@ -1,0 +1,28 @@
+@import './variables';
+
+// ------------page promos----------------
+@each $key,
+$value in $botonesCard {
+    .boton__#{$key} {
+        border: 1px solid $degradado3;
+        box-shadow: 0 0 10px $value;
+        color: $value;
+        height: 60px;
+    }
+}
+
+@each $key,
+$value in $botonesCard {
+    .boton__#{$key}:hover {
+        background-color: $value;
+        color: $hoverBoton;
+        font-size: 150%;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 10px $value;
+    }
+}
+
+.row__promos {
+    display: flex;
+    justify-content: space-around;
+}
