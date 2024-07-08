@@ -1,15 +1,16 @@
 // VARIABLES GRADIENTE
-$gradienteFondo: rgb(36, 11, 54);
-$degradado1: rgba(195, 20, 50, 1);
-$degradado2:rgba(233, 45, 77, 1);
-$degradado3:rgb(248, 101, 126);
+$gradienteFondo: rgba(236, 214, 102, 1);
+$degradado1: rgba(187, 189, 19, 1);
+$degradado2: rgba(144, 178, 15, 1);
+$degradado3: rgba(31, 65, 32, 1);
 
+$footerFondo: #90b20f;
 // ---------------Texto Page----------------
 
 $tipoLetraPrimario: 'Roboto',
-sans-serif;
-$tipoLetraSecundario:'Urbanist',
-sans-serif;
+    sans-serif;
+$tipoLetraSecundario: 'Urbanist',
+    sans-serif;
 
 
 $varianteLetra: uppercase;
@@ -19,20 +20,27 @@ $ordenParrafoCard: center;
 
 //-------------- card-------------
 
-$backgroundCard:#fbc3a2;
+// $backgroundCard:#fbc3a2;
+$backgroundCard: #f8ede6;
 
 // ------------variables de tabla en inicio-------------------
-$altoCarrucel:500px;
+$altoCarrucel: 500px;
 
 $altoPremiosTabla: 120px;
 
 // ------------colores de botones------------------------
-$rojo:rgb(246, 52, 52);
+$rojo: rgb(246, 52, 52);
 $verde: rgb(76, 170, 59);
 $violeta: #9e3081;
 $rosa: #FF3D68;
 
-$hoverBoton:#ffffff;
+$hoverBoton: #ffffff;
 
-$botones:(limpiar: $rojo, enviar: $verde);
-$botonesCard: (precio:$violeta, detalle: $rosa);
+$botones: (
+    limpiar: $rojo,
+    enviar: $verde
+);
+$botonesCard: (
+    precio:$violeta,
+    detalle: $rosa
+);

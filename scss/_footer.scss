@@ -5,7 +5,7 @@
 // /* -------------------------FOOTER--------------------- */
 .footer {
     // /* GRADIENTE */
-    background-color: $gradienteFondo;
+    background-color: $footerFondo;
     @include centradoContenido(flex, center, center);
 
     &__svg {
